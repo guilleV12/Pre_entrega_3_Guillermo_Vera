@@ -11,7 +11,7 @@ function crearImgProdDetalles() {
     let fragmento = document.createDocumentFragment();
     let img = document.createElement('img');
     
-    img.src = producto.src;
+    img.src = `../${producto.src}`;
     img.alt = producto.nombre;
     img.className = 'imgProdVer';
 
