@@ -9,7 +9,7 @@ let listaCarrito = document.querySelector('.lista-carrito');
 function crearTdProds(src,precio,nombre,id,posicion) {
     let tr = document.createElement('tr');
     let tdProducto = document.createElement('td');
-    tdProducto.innerHTML = `<img src='${src}'></img>`;
+    tdProducto.innerHTML = `<img src='../${src}'></img>`;
     tr.appendChild(tdProducto);  
     let tdNombre = document.createElement('td');
     tdNombre.textContent = nombre;
