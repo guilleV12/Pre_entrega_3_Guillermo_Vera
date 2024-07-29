@@ -12,7 +12,7 @@ header{
     z-index: 99;
     box-shadow: 0 2px 10px rgba(0,0,0,0.5);
 }
-.logo-container{
+.logo-container, .logo-container-pages{
     height: 80px;
     width: 80px;
     border-radius: 75px;
