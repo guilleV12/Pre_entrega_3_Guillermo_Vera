@@ -47,13 +47,13 @@ let tarjeta = (title,imgs) => {
 
 //arreglo de imagenes para tarjeta contacto
 let arregloImgsContacto = [
-    {src: '/assets/images/mail.png', content: 'hola@oyl.com.ar'},
-    {src: '/assets/images/phone.png', content: '+54 341 597 0645'}
+    {src: 'assets/images/mail.png', content: 'hola@oyl.com.ar'},
+    {src: 'assets/images/phone.png', content: '+54 341 597 0645'}
 ];
 //arreglo de imagenes para tarjeta redes
 let arregloImgsRedes = [
-    {src: '/assets/images/instagram.png', content: 'OvercomeYourLimits'},
-    {src: '/assets/images/x.png', content: 'OvercomeYourLimits'}
+    {src: 'assets/images/instagram.png', content: 'OvercomeYourLimits'},
+    {src: 'assets/images/x.png', content: 'OvercomeYourLimits'}
 ]
 
 contacto.appendChild(tarjeta('Contacto',arregloImgsContacto));
