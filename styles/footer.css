@@ -45,7 +45,7 @@ footer article{
     display: flex;
     justify-content: right;
 }
-.footer-contacto, .footer-redes{
+.footer-contacto, .footer-redes, .footer-contacto-pages, .footer-redes-pages{
     width: 35%;
     height: 80%;
     display: flex;
