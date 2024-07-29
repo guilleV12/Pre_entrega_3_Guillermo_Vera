@@ -41,15 +41,15 @@ class Producto {
 //Arreglos de productos
     //productos destacados (solo 9)
     let arrayProductosDestacados = [
-        (new Producto(1,'../assets/images/shirt1.jpg','Remera Jiu Jitsu',60000,'"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit... Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit"')),
-        (new Producto(2,'../assets/images/running-shoes.png','Zapatillas Running',150000,'"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit... Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit"')),
-        (new Producto(3,'../assets/images/short.png','Short Training',70000,'"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit... Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit"')),
-        (new Producto(4,'../assets/images/shirt2.jpg','Remera Termica',50000,'"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit... Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit"')),
-        (new Producto(5,'../assets/images/shirt3.jpg','Remera Termica',70000,'"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit... Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit"')),
-        (new Producto(6,'../assets/images/short2.jpg','Short Training',30000,'"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit... Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit"')),
-        (new Producto(7,'../assets/images/short3.webp','Short Training',50000,'"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit... Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit"')),
-        (new Producto(8,'../assets/images/tobillera.jpg','Tobillera',70000,'"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit... Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit"')),
-        (new Producto(9,'../assets/images/headband.webp','Vincha',30000,'"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit... Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit"')),
+        (new Producto(1,'assets/images/shirt1.jpg','Remera Jiu Jitsu',60000,'"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit... Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit"')),
+        (new Producto(2,'assets/images/running-shoes.png','Zapatillas Running',150000,'"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit... Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit"')),
+        (new Producto(3,'assets/images/short.png','Short Training',70000,'"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit... Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit"')),
+        (new Producto(4,'assets/images/shirt2.jpg','Remera Termica',50000,'"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit... Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit"')),
+        (new Producto(5,'assets/images/shirt3.jpg','Remera Termica',70000,'"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit... Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit"')),
+        (new Producto(6,'assets/images/short2.jpg','Short Training',30000,'"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit... Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit"')),
+        (new Producto(7,'assets/images/short3.webp','Short Training',50000,'"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit... Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit"')),
+        (new Producto(8,'assets/images/tobillera.jpg','Tobillera',70000,'"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit... Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit"')),
+        (new Producto(9,'assets/images/headband.webp','Vincha',30000,'"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit... Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit"')),
     ];
 
 //Crear e insertar productos destacados
@@ -80,7 +80,7 @@ for (let i = 0; i < 3; i++) {
         let h4Producto = document.createElement('h4');
         h4Producto.textContent = precio;
         let enlaceProducto = document.createElement('a');
-        enlaceProducto.href = '/pages/producto.html';
+        enlaceProducto.href = 'pages/producto.html';
         let btnComprar = crearBtn(id,'btnComprar','Ver +');
         enlaceProducto.appendChild(btnComprar);
 
